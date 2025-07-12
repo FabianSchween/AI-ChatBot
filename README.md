@@ -26,5 +26,5 @@ Clone the repository, install dependencies, set your OpenAI API key, and start t
 4.  Then run:
     ng serve
 ```  
-##Important Notes
+## Important Notes
 Security Warning: Using dangerouslyAllowBrowser: true with an OpenAI API key in the frontend is intended for testing purposes only. For production environments, implement a backend proxy server to handle API calls securely.
