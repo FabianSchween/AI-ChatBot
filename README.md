@@ -17,14 +17,14 @@ This project is a simple chatbot application built with Angular. It displays a s
 Clone the repository, install dependencies, set your OpenAI API key, and start the development server:
 
 ```bash
-git clone <repository-url>
-npm install
+1. git clone <repository-url>
+2. npm install
 
-Open mainpage.component.ts and replace:
-apiKey: 'your-own-key;)'
+3.  Open mainpage.component.ts and replace:
+    apiKey: 'your-own-key;)'
 
-Then run:
-ng serve
-
+4.  Then run:
+    ng serve
+```  
 ##Important Notes
-**Text**Security**Text** Warning: Using dangerouslyAllowBrowser: true with an OpenAI API key in the frontend is intended for testing purposes only. For production environments, implement a backend proxy server to handle API calls securely.
+Security Warning: Using dangerouslyAllowBrowser: true with an OpenAI API key in the frontend is intended for testing purposes only. For production environments, implement a backend proxy server to handle API calls securely.
